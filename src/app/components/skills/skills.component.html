@@ -1,0 +1,30 @@
+<main class="mt-4 flex flex-col items-center">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <ng-container *ngFor="let typeGroup of groupedSkills">
+      <div class="text-center space-x-6">
+        <div class="px-2 py-2 italic text-2xl text-white">
+          {{ typeGroup.type }}
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div *ngFor="let skill of typeGroup.skills">
+            <div
+              class="bg-white border border-gray-300 font-medium rounded-lg text-sm px-2 py-2 flex items-center justify-center"
+            >
+              <svg
+                [attr.viewBox]="skill.svgIcon.viewBox"
+                [attr.stroke]="skill.svgIcon.strokeColor"
+                [attr.stroke-width]="skill.svgIcon.strokeWidth"
+                [attr.stroke-linecap]="skill.svgIcon.strokeLinecap"
+                [attr.stroke-linejoin]="skill.svgIcon.strokeLinejoin"
+                class="h-8 w-8"
+              >
+                <path [attr.d]="skill.svgIcon.pathData"></path>
+              </svg>
+              <span class="ml-2">{{ skill.name }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</main>

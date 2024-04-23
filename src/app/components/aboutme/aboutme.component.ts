@@ -1,4 +1,15 @@
 import { Component } from '@angular/core';
+import aboutmeData from "../../data/aboutmeData.json";
+
+interface AboutMe {
+  name: string,
+  job: string,
+  address: string,
+  firstSection: string,
+  secondSection: string,
+  thirdSection: string,
+  fourSection: string
+}
 
 @Component({
   selector: 'app-aboutme',
@@ -6,10 +17,6 @@ import { Component } from '@angular/core';
 })
 export class AboutmeComponent {
 
-
-  redirectLinkedin(): void {
-    window.open('https://www.linkedin.com/in/bcdr/', '_blank');
-  }
-
+  textData: AboutMe[] = [aboutmeData];
 
 }

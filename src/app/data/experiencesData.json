@@ -1,0 +1,33 @@
+[
+    {
+        "job": "Desarrollador web",
+        "company":"Dropillos",
+        "timeline": "Sep. 2023 - Ene. 2024",
+        "description": "Se desarrolló una plataforma web destinada a brindar soporte y gestión a la PYME Dropillos, esta herramienta facilita la generación de comandas y la gestión eficiente del inventario, entre otras funciones. Anteriormente, todas las operaciones se realizaban manualmente con papel y lápiz. Esta plataforma se desarrolló con el stack MERN (MongoDB, Express.js, React.js, Node.js) y Tailwind CSS para darle estilos y hacerlo responsivo."
+    },
+    {
+        "job": "Asistente de estudiantes",
+        "company":"Universidad del Bio-Bio",
+        "timeline": "Mar. 2023 - Ene. 2024",
+        "description": "Ayudantías en Ingeniería de Software para estudiantes de Ingeniería de Ejecución en Computación e Informática, donde desempeñé el rol de cliente de software y se les enseño el stack MERN (MongoDB, Express.js, React.js, Node.js) para el desarrollo."
+    },
+    {
+        "job": "Ingeniero de software júnior",
+        "company":"VectorK",
+        "timeline": "Mar. 2023 - Ago. 2023",
+        "description": "Desarrollador de Software en un Start-up llamado VectorK, donde se agregaron nuevos módulos para la plataforma VSIA propio de la empresa, además de implementación de API REST con Talana."
+    },
+    {
+        "job": "Desarrollador web",
+        "company":"Ferrocarril del Pacífico S.A. FEPASA",
+        "timeline": "Ene. 2023 - Mar. 2023",
+        "description": "Desarrollo de una plataforma web para migración de servidor externo a uno privado de la empresa. Donde se requiere el cambio de base de datos y ajustes de código para el correcto funcionamiento. Además de trabajos de mantención y logística en la planta de Talcahuano."
+    },
+    {
+        "job": "Tutor",
+        "company":"Universidad del Bio-Bio",
+        "timeline": "Mar. 2022 - Ene. 2023",
+        "description": "Programa de acompañamiento para alumnos de primer año."
+    }
+
+]

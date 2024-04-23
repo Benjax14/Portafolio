@@ -1,29 +1,27 @@
 <Header>
     <nav
-        class="relative flex w-full flex-wrap items-center justify-between bg-zinc-50 py-2 shadow-dark-mild dark:bg-neutral-700 lg:py-4">
+        class="relative flex w-full flex-wrap items-center justify-between bg-gray-800 py-2 shadow-dark-mild lg:py-4">
         <div class="flex w-full flex-wrap items-center justify-around px-3 flex-col lg:flex-row">
             <div class="hidden lg:flex flex-col lg:flex-row">
-                <button
-                    class="block border-0 bg-transparent px-2 text-black/50 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200">Acerca
-                    de mi</button>
-                <button
-                    class="block border-0 bg-transparent px-2 text-black/50 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200">Conocimientos</button>
-                <button
-                    class="block border-0 bg-transparent px-2 text-black/50 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200">Experiencias</button>
-                <button
-                    class="block border-0 bg-transparent px-2 text-black/50 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200">Proyectos</button>
+                <a
+                    routerLink="aboutme" routerLinkActive="underline" class="block border-0 bg-transparent px-2 text-2xl text-neutral-200 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0">Sobre mi</a>
+                <a
+                    routerLink="skills" routerLinkActive="underline" class="block border-0 bg-transparent px-2 text-2xl text-neutral-200 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0">Conocimientos</a>
+                <a
+                    routerLink="experiences" routerLinkActive="underline" class="block border-0 bg-transparent px-2 text-2xl text-neutral-200 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 ">Experiencias</a>
+                <a
+                    routerLink="projects" routerLinkActive="underline" class="block border-0 bg-transparent px-2 text-2xl text-neutral-200 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 ">Proyectos</a>
 
             </div>
-            <button class="lg:hidden block border-0 bg-transparent px-2 text-black/50 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200" (click)="toggleDropdown()">Menú</button>
-
+            <button class="lg:hidden block border-0 bg-transparent px-2 text-neutral-200 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 " (click)="toggleDropdown()">Menú</button>
         </div>
     </nav>
     <div class="relative lg:hidden">
         <div class="top-full left-0  w-full bg-white border border-gray-300 rounded-md shadow-lg" *ngIf="isDropdownOpen">
-            <a class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Acerca de mi</a>
-            <a class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Conocimientos</a>
-            <a class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Experiencias</a>
-            <a class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Proyectos</a>
+            <a routerLink="aboutme" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Sobre mi</a>
+            <a routerLink="skills" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Conocimientos</a>
+            <a routerLink="experiences" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Experiencias</a>
+            <a routerLink="projects" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Proyectos</a>
           </div>
     </div>
 </Header>
