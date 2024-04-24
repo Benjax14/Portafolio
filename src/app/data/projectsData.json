@@ -1,0 +1,36 @@
+[
+    {
+        "title":"Portafolio 1.0",
+        "description":"Portafolio creado con Angular y Tailwind. Desarrollado como carta de presentación como dev y mostrar las tecnologias que manejo.",
+        "githubURL":"https://github.com/Benjax14/Portafolio"
+    },
+    {
+        "title":"Proyecto de título",
+        "description":"Plataforma web creado con el Stack MERN, para la gestión de inventario, generación de comandas, punto de venta y reportes de ventas."
+    },
+    {
+        "title":"Inventario TDD",
+        "description":"Proyecto de Taller de Desarrollo 2022-1 con PHP, sistema de arriendo de trajes y reservas.",
+        "githubURL":"https://github.com/Benjax14/inventario"
+    },
+    {
+        "title":"Tinder de Perritos",
+        "description":"Proyecto de la asignatura Taller de Desarrollo Web que consiste en la realización de un Tinder para perritos, utilizando la Dog API y desarrollado con React.",
+        "githubURL":"https://github.com/Benjax14/tinder-perros-query"
+    },
+    {
+        "title": "ExcelToPDFCEE",
+        "description":"Programa para automatizar la recoleccion de datos de un excel definido (forms de google) y la ordena por ramos o el parametro que se desee y transforma a PDF.",
+        "githubURL":"https://github.com/Benjax14/ExcelToPDFCEE"
+    },
+    {
+        "title":"Tracker de Peliculas",
+        "description":"Tracker de peliculas creado en Python donde puedes encontrar información de una pelicula mediante OMDb API",
+        "githubURL":"https://github.com/Benjax14/TrackerPeliculas"
+    },
+    {
+        "title":"Gestión de libros",
+        "description":"Proyecto en C# para nivelación, este permite crear y administrar una lista de libros con sus respectivos atributos",
+        "githubURL":"https://github.com/Benjax14/LibrosCSharp"
+    }
+]
