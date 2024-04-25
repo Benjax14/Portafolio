@@ -1,7 +1,7 @@
 [
     {
         "title":"Portafolio 1.0",
-        "description":"Portafolio creado con Angular y Tailwind. Desarrollado como carta de presentación como dev y mostrar las tecnologias que manejo.",
+        "description":"Portafolio creado con Angular y Tailwind. Desarrollado como carta de presentación como dev y mostrar las tecnologías que manejo.",
         "githubURL":"https://github.com/Benjax14/Portafolio"
     },
     {
@@ -20,12 +20,12 @@
     },
     {
         "title": "ExcelToPDFCEE",
-        "description":"Programa para automatizar la recoleccion de datos de un excel definido (forms de google) y la ordena por ramos o el parametro que se desee y transforma a PDF.",
+        "description":"Programa para automatizar la recoleccion de datos de un excel definido (forms de google) y la ordena por ramos o el parámetro que se desee y transforma a PDF.",
         "githubURL":"https://github.com/Benjax14/ExcelToPDFCEE"
     },
     {
-        "title":"Tracker de Peliculas",
-        "description":"Tracker de peliculas creado en Python donde puedes encontrar información de una pelicula mediante OMDb API",
+        "title":"Tracker de Películas",
+        "description":"Tracker de películas creado en Python donde puedes encontrar información de una película mediante OMDb API",
         "githubURL":"https://github.com/Benjax14/TrackerPeliculas"
     },
     {
